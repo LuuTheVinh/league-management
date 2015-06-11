@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B28B2B4-2F81-4EDA-895A-99B56B2F7085}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeagueManagement_DX</RootNamespace>
+    <AssemblyName>LeagueManagement_DX</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v14.2" />
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v14.2" />
+    <Reference Include="DevExpress.DataAccess.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v14.2.UI, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.2" />
+    <Reference Include="DevExpress.Sparkline.v14.2.Core" />
+    <Reference Include="DevExpress.Utils.v14.2.UI, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.2.Extensions, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.2.Wizard, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v14.2" />
+    <Reference Include="DevExpress.XtraGauges.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v14.2.Extensions, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomControlLibrary\AccountList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\AccountListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\AccountListItem.Designer.cs">
+      <DependentUpon>AccountListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\ControlListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\ControlListItem.Designer.cs">
+      <DependentUpon>ControlListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\CustomTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\CustomTextBox.Designer.cs">
+      <DependentUpon>CustomTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\ControlList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\ControlList.Designer.cs">
+      <DependentUpon>ControlList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\FootballerControlListItemSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\FootballerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\MatchControlListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\MatchControlListItem.Designer.cs">
+      <DependentUpon>MatchControlListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\MatchList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\PlayerGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\PlayerGrid.Designer.cs">
+      <DependentUpon>PlayerGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\PlayerGridPreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\PlayerGridPreview.Designer.cs">
+      <DependentUpon>PlayerGridPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TeamControlListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TeamControlListItem.Designer.cs">
+      <DependentUpon>TeamControlListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TeamGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TeamGrid.Designer.cs">
+      <DependentUpon>TeamGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TeamList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TourList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TourControlListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControlLibrary\TourControlListItem.Designer.cs">
+      <DependentUpon>TourControlListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encryption.cs" />
+    <Compile Include="Forms\AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AccountSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccountSetting.Designer.cs">
+      <DependentUpon>AccountSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddResult.Designer.cs">
+      <DependentUpon>AddResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddResultForm.Designer.cs">
+      <DependentUpon>AddResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddTeam.Designer.cs">
+      <DependentUpon>AddTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddTour.Designer.cs">
+      <DependentUpon>AddTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CreateMatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateMatch.Designer.cs">
+      <DependentUpon>CreateMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Footballer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Footballer.Designer.cs">
+      <DependentUpon>Footballer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainManagement.Designer.cs">
+      <DependentUpon>MainManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegisterForm.designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.cs" />
+    <Compile Include="Forms\ShowFootballer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowFootballer.Designer.cs">
+      <DependentUpon>ShowFootballer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShowTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowTeam.Designer.cs">
+      <DependentUpon>ShowTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShowUserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowUserAccount.Designer.cs">
+      <DependentUpon>ShowUserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TourManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TourManagement.Designer.cs">
+      <DependentUpon>TourManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TypeofGoal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TypeofGoal.Designer.cs">
+      <DependentUpon>TypeofGoal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueDatabaseDataSet.cs">
+      <DependentUpon>LeagueDatabaseDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LeagueDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeagueDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserAccessLevel.cs" />
+    <Compile Include="UserDataset.cs">
+      <DependentUpon>UserDataset.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDataset.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomControlLibrary\AccountList.resx">
+      <DependentUpon>AccountList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\AccountListItem.resx">
+      <DependentUpon>AccountListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\ControlListItem.resx">
+      <DependentUpon>ControlListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\ControlList.resx">
+      <DependentUpon>ControlList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\CustomTextBox.resx">
+      <DependentUpon>CustomTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\FootballerControlListItemSmall.resx">
+      <DependentUpon>FootballerControlListItemSmall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\FootballerList.resx">
+      <DependentUpon>FootballerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\MatchControlListItem.resx">
+      <DependentUpon>MatchControlListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\MatchList.resx">
+      <DependentUpon>MatchList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\PlayerGrid.resx">
+      <DependentUpon>PlayerGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\PlayerGridPreview.resx">
+      <DependentUpon>PlayerGridPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\TeamControlListItem.resx">
+      <DependentUpon>TeamControlListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\TeamGrid.resx">
+      <DependentUpon>TeamGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\TeamList.resx">
+      <DependentUpon>TeamList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\TourControlListItem.resx">
+      <DependentUpon>TourControlListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControlLibrary\TourList.resx">
+      <DependentUpon>TourList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AccountSetting.resx">
+      <DependentUpon>AccountSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddResult.resx">
+      <DependentUpon>AddResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddResultForm.resx">
+      <DependentUpon>AddResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddTeam.resx">
+      <DependentUpon>AddTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddTour.resx">
+      <DependentUpon>AddTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreateMatch.resx">
+      <DependentUpon>CreateMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Footballer.resx">
+      <DependentUpon>Footballer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainManagement.resx">
+      <DependentUpon>MainManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowFootballer.resx">
+      <DependentUpon>ShowFootballer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowTeam.resx">
+      <DependentUpon>ShowTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowUserAccount.resx">
+      <DependentUpon>ShowUserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TourManagement.resx">
+      <DependentUpon>TourManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TypeofGoal.resx">
+      <DependentUpon>TypeofGoal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Forms\Settings.settings" />
+    <None Include="LeagueDatabaseDataSet.xsc">
+      <DependentUpon>LeagueDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LeagueDatabaseDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LeagueDatabaseDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="LeagueDatabaseDataSet.xss">
+      <DependentUpon>LeagueDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UserDataset.xsc">
+      <DependentUpon>UserDataset.xsd</DependentUpon>
+    </None>
+    <None Include="UserDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDataset.xss">
+      <DependentUpon>UserDataset.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-File-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\LeagueDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database\LeagueDatabase_log.ldf">
+      <DependentUpon>LeagueDatabase.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Team\1.jpg" />
+    <Content Include="Image\Team\2.jpg" />
+    <Content Include="Resources\man-icon.png" />
+    <Content Include="TestDataBase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestDataBase_log.ldf">
+      <DependentUpon>TestDataBase.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image\Footballer\" />
+    <Folder Include="Image\Other\" />
+    <Folder Include="Image\Specialist\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

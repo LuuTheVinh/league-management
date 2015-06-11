@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>397, 132</value>
+  </metadata>
+  <data name="label_tipscontent.Text" xml:space="preserve">
+    <value>- Click on team list to select team
+- Uncheck player you want to remove from registration list
+- Click Save to save all change.
+- If team not in tour, register this team in tour.
+Otherwise, save change only
+</value>
+  </data>
+  <data name="label_tipscontent.ToolTip" xml:space="preserve">
+    <value>- Nhấp chuột vào danh sách đội để chọn đội
+- Bỏ chọn cầu thủ bạn muốn xóa khỏi danh sách đăng ký
+- Nhấn Save để lưu tất cả thay đổi.
+- Nếu đội không có trong giải, đăng ký đội bóng này trong tour.
+Nếu không, chỉ lưu thay đổi</value>
+  </data>
+  <metadata name="teamBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>198, 17</value>
+  </metadata>
+  <metadata name="leagueDatabaseDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="footballerBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureEdit_Image.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAPqSURBVFhH1Zbtb5NVGMa3KCSEGBWCgQjqF/8QGOvasTm2ue6FbZ1jYytrYbzZEJBBJEbUL759
+        WAyfiBISQEQdwRfI1jlgg70xBoMVAe2ZvAQMICGIXl5XexalHWxO2sY7udKnp8+5r9+573OePmn/78it
+        PZK20HPYfkt+vFwdCPlPAymDeOm1QKj7NyAC4fC02uHkxTwCtPwKtN5KEYQAPrsK7LgCHLxhIbKq2uzP
+        iY+5BPhkBHj3J+CjMLDvmoXIXtpub0lszCHABzRuOg9sot65COxkRSIQOTUd9rbExXME2HYBCJwF1p3h
+        5xCw9Ue25BcLoWM60ZhSUN81r3Lt0ET0PDWHerF+89WmENBIM/9gVKt5vZlj29kaQTyZX99pLR4dL3A1
+        bTejm2n/dWAv+7k7VizvLupTSgZvc7Uy9J4E6vqj8lL+U8CGc8DHbI8gphU0nLA2Dw/1c/tl9vES8CYT
+        Nw0DbzBJrDZS66nXWe4VNKqnYW0vUN0TVQ1V1wcsJ5Ra8j43qCCmu/291mrsUD9lrl76B5iYSeqYOFbL
+        JJrUUku7aUpVnaCOAx5Kn9X8XsNx5VCF3uPmFMSzJStPWrv4EMAW7mQfzZXcwySVTBanrqgq/qHyzgel
+        Md0jMFVElXqLm1UQM5esGrSWD8YsAmzk5lEftZKyY0Dp0clL86UKAqlKPkJstRCzK9ees7Z/x6yqQGg9
+        +65+alLxEarjP4o5IhCshvI2ck9ss3tiSqGv21pHYwYB1vE8F39jUNBikLPfYNEXk5fmS3lfGRQeMCj9
+        1qC6zaCx08Dbcyf+H/QZAqwhgJsAeV8zCSdnM9G42jeG7G8RAOYqOmhQftig9gdz39s7hrlCAKsJUETS
+        PFXgy/hVuaxGDZw0c35ukLXXwLEnKl1rLALAHPlcfcn3BlXtP99b3nf34e8OTxNgFU+B+xAnkfgVQuTG
+        iqvJobKZ2EU5aeKgWSaNM3ZbCYRjLq5eOQq/4+qD5nZD/71Hv7g8pQrwAVQWNHCzXJpYwGrEKp8tWkxA
+        AQkii1WQ6QKaS7oWmEB1/5LW8I2Ggd/Hf2tKL1rRt+Y8mr3DVmfjVScNobnmNJo9/Wh2d+GYIDJZ9lEA
+        B4Fc3HiLCVoaDF9uGLg/vnkkdNO/VHpFIPQqj2wGTeerCgTJIlAuK+QOhi/6Tv0xQfNJxlRPIFTC872Q
+        phkseyY/F9G8MGiGfIMJNldMI0AZH90O7gfJJfN20+Mb/DPx5gpVoJx/Xk5u2GydnmA46E+WueIJtYDP
+        DiefcDkdIy1JNVeMAuS2j+zS8z2p5op0AhQP48OUmEeCL52pM1fIOGXmjyXS0v4C3Fn4FbSEKzwAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <metadata name="teamTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 17</value>
+  </metadata>
+  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 17</value>
+  </metadata>
+  <metadata name="footballerTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 56</value>
+  </metadata>
+  <metadata name="registrationTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>382, 63</value>
+  </metadata>
+  <metadata name="registrationBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>565, 56</value>
+  </metadata>
+  <metadata name="teamJoinTourTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="official_StadiumTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 97</value>
+  </metadata>
+  <metadata name="teamDetailTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>213, 132</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>117</value>
+  </metadata>
+</root>

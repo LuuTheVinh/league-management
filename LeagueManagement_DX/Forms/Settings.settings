@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LeagueManagement_DX.Forms" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StringCaptionAddtour" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Unique Error</Value>
+    </Setting>
+    <Setting Name="StringCaptionInvalidValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Invalid Value</Value>
+    </Setting>
+    <Setting Name="StringCaptionTransactionUnsuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Transaction Unsuccess</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

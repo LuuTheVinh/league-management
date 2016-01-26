@@ -19,9 +19,9 @@ GV HDTH: Nguyễn Vĩnh Kha</br>
 
 Nguyễn Quang Nghĩa
 
-    Gmail:
+    Gmail: qnghiauit@hotmail.com
 
-    Github
+    Github: https://github.com/qnghiauit
 
 Văn Trương Quốc Thắng
 

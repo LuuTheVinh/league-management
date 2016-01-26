@@ -7,10 +7,47 @@ GV Lý Thuyết: Đỗ Thị Thanh Tuyền</br>
 GV HDTH: Lê Minh Trí</br>
 GV HDTH: Nguyễn Vĩnh Kha</br>
 
-<b>Sinh Viên</b>
+<b>Ngôn ngữ sử dụng:</b>
 <ul>
-<li>Nguyễn Quang Nghĩa</li>
-<li>Văn Trương Quốc Thắng</li>
-<li>Hồ Hoàng Tùng</li>
-<li>Lưu Thế Vinh</li>
+<li>C#</li>
+<li>ADO.Net</li>
+<li>SQL Server</li>
+<li>Dev Express FrameWork</li>
 </ul>
+
+<b>Sinh Viên</b>
+
+Nguyễn Quang Nghĩa
+
+    Gmail:
+
+    Github
+
+Văn Trương Quốc Thắng
+
+    Gmail:
+
+    Github:
+
+Hồ Hoàng Tùng
+
+    Gmail: hohoangtung12a3@gmail.com
+
+    Github: http://github.com/7ung
+
+Lưu Thế Vinh
+
+    Gmail: luuthevinh7@gmail.com
+
+    Github: http://github.com/LuuTheVinh
+
+</b>Features:</b>
+<ul>
+<li>Nhập, xem, xoá, sửa dữ liệu về động bóng, cầu thủ, trận đấu</li>
+<li>Cập nhận kết quả trận đấu</li>
+<li>Xem bảng xếp hạng</li>
+<li>Đăng nhập quản lý account, phân quyền quản trị</li>
+</ul>
+
+Video Demo:
+https://www.youtube.com/watch?v=idhFw5g-ars
